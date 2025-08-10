@@ -1,4 +1,3 @@
-// Insertion sort implementation in pure JavaScript (No built-in helpers)
 function insertionSort(arr, n) {
   for (let i = 0; i <= n - 1; i++) {
     let j = i;
@@ -24,7 +23,6 @@ function insertionSort(arr, n) {
 let arr = [13, 46, 24, 52, 20, 9];
 let n = arr.length;
 
-// Print original array manually
 let original = "";
 for (let i = 0; i < n; i++) {
   original += arr[i] + " ";
